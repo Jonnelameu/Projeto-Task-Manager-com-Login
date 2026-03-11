@@ -21,20 +21,20 @@ Versionamento:
 - Git
 - GitHub
 
----
+
 
 Funcionalidades
 
-✔ Registro de usuário  
-✔ Login com autenticação JWT  
-✔ Adicionar tarefas  
-✔ Listar tarefas do usuário  
-✔ Proteção de rotas com middleware de autenticação  
-✔ Backend em API REST  
-✔ Integração com MongoDB  
-✔ Containerização com Docker
+ Registro de usuário  
+ Login com autenticação JWT  
+ Adicionar tarefas  
+ Listar tarefas do usuário  
+ Proteção de rotas com middleware de autenticação  
+ Backend em API REST  
+ Integração com MongoDB  
+ Containerização com Docker
 
----
+
 
 🔐 Autenticação
 
@@ -45,7 +45,7 @@ Authorization: Bearer TOKEN
 
 Esse token é validado pelo middleware antes de acessar as rotas protegidas.
 
----
+
 
  Estrutura do Projeto
 
@@ -63,7 +63,7 @@ docker compose up --build
 O servidor irá rodar em:
 http://localhost:5000
 
----
+
 
 Objetivo do projeto
 
