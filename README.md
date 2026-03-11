@@ -1,19 +1,59 @@
-# Task Manager Full Stack
+Task Manager com Login
 
-Projeto simples de gerenciamento de tarefas com login.
+Projeto full stack de gerenciamento de tarefas com autenticação de usuários.
 
-## Tecnologias
+ Tecnologias utilizadas
 
-- React
+Backend:
 - Node.js
-- Express
+- Express.js
 - MongoDB
-- JWT
+- JWT (JSON Web Token)
 
-## Funcionalidades
+Frontend:
+- HTML
+- CSS
+- JavaScript
 
-- Cadastro de usuário
-- Login
-- Criar tarefas
-- Listar tarefas
-- Deletar tarefas
+Infraestrutura:
+- Docker
+- Docker Compose
+
+Versionamento:
+- Git
+- GitHub
+
+---
+
+Funcionalidades
+
+✔ Registro de usuário  
+✔ Login com autenticação JWT  
+✔ Adicionar tarefas  
+✔ Listar tarefas do usuário  
+✔ Proteção de rotas com middleware de autenticação  
+✔ Backend em API REST  
+✔ Integração com MongoDB  
+✔ Containerização com Docker
+
+---
+
+ Autenticação
+
+O sistema utiliza JWT (JSON Web Token) para autenticação.
+
+Após o login, o token é enviado no header:
+
+Esse token é validado pelo middleware antes de acessar as rotas protegidas.
+
+OBJETIVO DO PROJETO
+
+Este projeto foi desenvolvido com o objetivo de praticar:
+
+- criação de APIs REST
+- autenticação com JWT
+- integração com banco de dados MongoDB
+- containerização com Docker
+- versionamento com Git e GitHub
+
+
