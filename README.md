@@ -46,21 +46,42 @@ Authorization: Bearer TOKEN
 Esse token é validado pelo middleware antes de acessar as rotas protegidas.
 
 
+Estrutura do Projeto
 
- Estrutura do Projeto
+backend
+├── middleware
+│ └── auth.js
+├── models
+│ └── Task.js
+├── routes
+│ ├── auth.js
+│ └── tasks.js
+└── server.js
+
+frontend
+├── index.html
+├── script.js
+└── style.css
+
 
  Como rodar o projeto
 
- Clonar o repositório
+1️ Clonar o repositório
+
 git clone https://github.com/Jonnelameu/Projeto-Task-Manager-com-Login.git
 
-Entrar na pasta
+2️ Entrar na pasta
+
 cd Projeto-Task-Manager-com-Login
 
-Rodar com Docker
+
+3 Rodar com Docker
+
 docker compose up --build
 
+
 O servidor irá rodar em:
+
 http://localhost:5000
 
 
