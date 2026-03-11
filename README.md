@@ -1,8 +1,6 @@
-Task Manager com Login
-
 Projeto full stack de gerenciamento de tarefas com autenticação de usuários.
 
- Tecnologias utilizadas
+Tecnologias utilizadas
 
 Backend:
 - Node.js
@@ -38,15 +36,36 @@ Funcionalidades
 
 ---
 
- Autenticação
+🔐 Autenticação
 
-O sistema utiliza JWT (JSON Web Token) para autenticação.
+O sistema utiliza **JWT (JSON Web Token)** para autenticação.
 
 Após o login, o token é enviado no header:
+Authorization: Bearer TOKEN
 
 Esse token é validado pelo middleware antes de acessar as rotas protegidas.
 
-OBJETIVO DO PROJETO
+---
+
+ Estrutura do Projeto
+
+ Como rodar o projeto
+
+ Clonar o repositório
+git clone https://github.com/Jonnelameu/Projeto-Task-Manager-com-Login.git
+
+Entrar na pasta
+cd Projeto-Task-Manager-com-Login
+
+Rodar com Docker
+docker compose up --build
+
+O servidor irá rodar em:
+http://localhost:5000
+
+---
+
+Objetivo do projeto
 
 Este projeto foi desenvolvido com o objetivo de praticar:
 
@@ -55,5 +74,3 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 - integração com banco de dados MongoDB
 - containerização com Docker
 - versionamento com Git e GitHub
-
-
